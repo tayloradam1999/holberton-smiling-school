@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'holberton_school-icon';
+	src:  url('fonts/holberton_school-icon.eot');
+	src:  url('fonts/holberton_school-icon.eot') format('embedded-opentype'),
+	  url('fonts/holberton_school-icon.ttf') format('truetype'),
+	  url('fonts/holberton_school-icon.woff') format('woff'),
+	  url('fonts/holberton_school-icon.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+  
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'holberton_school-icon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-menu:before {
+	content: "\e911";
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Container formatting */
+
+.navContainer {
+	max-width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Background picture + img tag formatting */
+
+#nav-and-hero {
+	background-image: url('images/pic_1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+#helpme1 {
+	height: 40px;
+	width: 40px;
+}
+
+#helpme2 {
+	height: 40px;
+	width: 130px;
+}
+
+#helpme3 {
+	position: relative;
+	top: -1.5rem;
+}
+
+/* Text sizing and formatting */
+
+#nav-and-hero h2 {
+	font-size: 103px;
+	line-height: 155px;
+}
+
+/* Colors to use :) */
+
+.purp {
+	color: #C271FF;
+}
+
+.purp-background {
+	background-color: #C271FF;
+}
