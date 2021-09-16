@@ -28,6 +28,21 @@
 	content: "\e911";
 }
 
+.holberton_school-icon-ic_facebook::before {
+	content: "\e908";
+	font-size: 3rem;
+}
+
+.holberton_school-icon-ic_twitter::before {
+	content: "\e90f";
+	font-size: 3rem;
+}
+
+.holberton_school-icon-ic_instagram::before {
+	content: "\e90a";
+	font-size: 3rem;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -38,6 +53,10 @@ body {
 	max-width: 1250px;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.socialIcons {
+	width: 130px;
 }
 
 /* Background picture + img tag formatting */
@@ -60,6 +79,8 @@ body {
 	width: 130px;
 }
 
+/* Not great with moving divs! Move them with css instead ;) */
+
 #helpme3 {
 	position: relative;
 	top: -1.5rem;
@@ -81,3 +102,12 @@ body {
 .purp-background {
 	background-color: #C271FF;
 }
+
+.blue-background {
+	background-color: #071629;
+}
+
+.white-background {
+	background-color: white;
+}
+
