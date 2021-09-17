@@ -43,6 +43,11 @@
 	font-size: 3rem;
 }
 
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    color: #C271FF !important;
+	text-decoration: underline;
+}
+
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
