@@ -64,7 +64,7 @@ body {
 	width: 130px;
 }
 
-/* Background picture + img tag formatting */
+/* Background pictures */
 
 #nav-and-hero {
 	background-image: url('images/pic_1.jpg');
@@ -73,6 +73,16 @@ body {
 	background-size: cover;
 	position: relative;
 }
+
+#nav-and-hero2 {
+	background-image: url('images/pic_2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+/* Forgot you can just give width and height in the img tags... implementation of this starts later */
 
 #helpme1 {
 	height: 40px;
@@ -98,6 +108,11 @@ body {
 	line-height: 155px;
 }
 
+#GoPro {
+	font-size: 70px;
+	line-height: 60px;
+}
+
 /* Colors to use :) */
 
 .purp {
@@ -115,4 +130,3 @@ body {
 .white-background {
 	background-color: white;
 }
-
