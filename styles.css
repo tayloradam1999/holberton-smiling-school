@@ -50,10 +50,17 @@
 	color: #82D24F;
 }
 
+.holberton_school-icon-search_1::before {
+	content: "\e912";
+	cursor: default;
+	font-size: 1.2rem;
+}
+
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
     color: #C271FF !important;
 	text-decoration: underline;
 }
+
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -86,6 +93,13 @@ body {
 
 #nav-and-hero2 {
 	background-image: url('images/pic_2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+#nav-and-hero3 {
+	background-image: url('images/pic_3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
@@ -124,6 +138,11 @@ body {
 
 #faq {
 	font-size: 60px;
+	line-height: 60px;
+}
+
+#coursesHeader {
+	font-size: 35px;
 	line-height: 60px;
 }
 
