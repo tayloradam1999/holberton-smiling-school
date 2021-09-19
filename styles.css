@@ -71,6 +71,10 @@ body {
 	width: 130px;
 }
 
+.table {
+	margin-bottom: 0rem !important;
+}
+
 /* Background pictures */
 
 #nav-and-hero {
@@ -135,6 +139,8 @@ body {
 .white-background {
 	background-color: white;
 }
+
+/* Media queries to overwrite Bootstrap attributes */
 
 @media screen and (max-width: 576px) {
 	.navbar {
