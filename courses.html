@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="Project 0x01. Implement a design with bootstrap">
+	<title>Holberton Smiling School</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="">
+	<!-- Navbar -->
+	<div class="container-fluid" id="nav-and-hero3">
+		<div class="container-lg">
+			<nav class="navbar navbar-expand-md">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+					data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="holberton_school-icon-menu"></span>
+				</button>
+				<div class="d-flex flex-column flex-md-row align-items-center w-50">
+					<img id="helpme1" src="images/smile_off.png" alt="web-icon" class="mr-4 mt-3">
+					<img id="helpme2" src="images/logo.png" alt="web-icon2" class="mt-3">
+				</div>
+				<!-- Nav list -->
+				<div class="navbar-collapse collapse" id="navbarCollapse">
+					<ul class="navbar-nav mb-2 ml-auto">
+						<li class="nav-item mt-3">
+							<a class="nav-link text-white" href="courses.html">COURSES</a>
+						</li>
+						<li class="nav-item mt-3">
+							<a class="nav-link text-white pl-md-4" href="pricing.html">PRICING</a>
+						</li>
+						<li class="nav-item ml-2 mt-3">
+							<a class="nav-link text-white pl-md-4" href="homepage.html">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- Header before form section -->
+		<div class="container-lg">
+			<div class="row justify-content-center text-center text-white">
+				<h1 class="font-weight-bold" id="coursesHeader">« Don’t cry because it’s over.</h1>
+			</div>
+			<div class="row justify-content-center text-center text-white">
+				<h1 class="font-weight-bold mb-5" id="coursesHeader"><span class="purp" id="coursesHeader">Smile</span>
+					because it happened. »</h1>
+			</div>
+		</div>
+	</div>
+	<!-- Forms section -->
+	<div class="container-fluid purp-background">
+		<div class="container-lg py-4">
+			<form>
+				<div class="form-row align-items-center">
+					<div class="col-12 col-lg-4 form-group">
+						<label for="KEYWORDS" class="text-white">KEYWORDS</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text">
+									<span class="holberton_school-icon-search_1"></span>
+								</div>
+							</div>
+							<input type="text" class="form-control py-4" id="KEYWORDS" placeholder="Search by keywords">
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 form-group text-white">
+						<label for="TOPIC">TOPIC</label>
+						<select id="TOPIC" class="form-control form-control-lg">
+							<option selected>Novice</option>
+							<option>Intermediate</option>
+							<option>Expert</option>
+						</select>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 form-group text-white">
+						<label for="SORT BY">SORT BY</label>
+						<select id="SORT BY" class="form-control form-control-lg">
+							<option selected>Most Popular</option>
+							<option>Most Recent</option>
+							<option>Most Viewed</option>
+						</select>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- Video section -->
+	<div class="container-fluid">
+		<div class="container-lg bg-white mt-5">
+			<div class="text-muted">
+				<p class="">11 videos</p>
+			</div>
+			<div class="row">
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+				<div class="card col-lg-3 col-md-4 col-12 border-0">
+					<img class="card-img-top" src="images/thumbnail_1.jpg" alt="">
+					<div class="card-body">
+						<h1 class="card-title lead font-weight-bold">Natural Smile</h1>
+						<p class="card-text text-secondary">Lorem ipsum dolor sit amet, consect
+							adipiscing
+							elit, sed do eiusmod.</p>
+						<div class="row">
+							<img class="rounded-circle ml-3" src="images/profile_1.jpg" height="25px" width="25px"
+								alt="">
+							<img class="card-img-overlay mx-auto mt-5 mt-md-0 mb-auto" src="images/play.png" alt="">
+							<p class="ml-3 purple">Phillip Massey</p>
+						</div>
+						<div class="row align-items-center justify-content-between px-4">
+							<div class="row">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_on.png" class="" alt="">
+								<img src="images/star_off.png" class="" alt="">
+							</div>
+							<p class="purple ml-3 pt-3">8 min</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="container-fluid blue-background py-5">
+		<div class="row justify-content-around mt-4 mx-5 px-5 mx-md-0 px-md-0 justify-content-md-between mx-lg-5 px-lg-5">
+			<div class="ml-3 mb-4">
+				<img src="images/smile_off.png" alt="web-icon" class="mr-3" width="36px" height="31px">
+				<img src="images/logo.png" alt="web-icon2" width="112px" height="auto">
+			</div>
+			<div class="d-flex ml-4 mr-3 justify-content-between">
+				<a href="https://www.facebook.com/HolbertonSchool/" class="mr-md-2">
+					<span class="holberton_school-icon-ic_facebook"></span>
+				</a>
+				<a href="https://twitter.com/holbertonschool" class="mr-md-2">
+					<span class="holberton_school-icon-ic_twitter"></span>
+				</a>
+				<a href="https://www.instagram.com/holbertonschool/" class="">
+					<span class="holberton_school-icon-ic_instagram"></span>
+				</a>
+			</div>
+		</div>
+		<div class="row justify-content-center pt-5">
+			<p class="text-muted col-4 text-center">©smileschool 2020</p>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
