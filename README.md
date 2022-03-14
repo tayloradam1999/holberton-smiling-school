@@ -100,3 +100,9 @@ Same as Homepage, create the footer
 ## 15. Close the page with a footer  
   
 Same as Homepage and Pricing page, create the footer  
+
+## Credit
+All figma files were designed by Nicolas Philippot, UI/UX designer, and can be found [here].(https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip). Webpages developed by Adam Taylor.
+
+[]: # Language: HTML/CSS/Bootstrap
+[]: # Path: holberton-smiling-school/README.md
