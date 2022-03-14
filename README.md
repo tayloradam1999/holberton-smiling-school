@@ -4,11 +4,10 @@ In this project, you will implement 3 web pages with Bootstrap. You will use all
   
 You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.  
   
-Here's the final result:  
+[Here's](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip) the final result:  
 
 ![fr](https://github.com/tayloradam1999/holberton-smiling-school/blob/main/readme_assets/fr.jpg)  
 
-This webpage has been designed by Nicolas Philippot, UI/UX designer. You can find final screens [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip)  
 
 ## Requirements  
 - You have to use Bootstrap  
