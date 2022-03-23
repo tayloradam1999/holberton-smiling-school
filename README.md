@@ -100,6 +100,9 @@ Same as Homepage, create the footer
   
 Same as Homepage and Pricing page, create the footer  
 
+## Bugs
+After a meeting with my cohort and my education lead, we had agreed that the multi-item carousel of quotes required by the project was not completely possible while only utilizing Bootstrap. We, as a collective, decided to either leave them as static images, or to create a carousel using a different framework/library while still meeting the project's deadline constraints. I opted to leave them as static images.
+
 ## Credit
 All figma files were designed by Nicolas Philippot, UI/UX designer, and can be found [here](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-webstack/623/Archive.zip).  
 Webpages developed by Adam Taylor.
